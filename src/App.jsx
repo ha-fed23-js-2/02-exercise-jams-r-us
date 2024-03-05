@@ -11,16 +11,16 @@ function App() {
 		<main>
 			<h2> Explore our amazing jam collection! </h2>
 			<div className="products">
-				<JamCard text="Raspberry" />
-				<JamCard text="Strawberry" />
-				<JamCard text="Banana" />
-				<JamCard text="Cherry" />
-				<JamCard text="Cinnamon" />
-				<JamCard text="Peppermint" />
-				<JamCard text="Cardamon" />
-				<JamCard text="Licorice" />
-				<JamCard text="Garlic" />
-				<JamCard text="Potato" />
+				<JamCard text="Raspberry" jars={5} />
+				<JamCard text="Strawberry" jars={1} />
+				<JamCard text="Banana" jars={0} />
+				<JamCard text="Cherry" jars={0} />
+				<JamCard text="Cinnamon" jars={0} />
+				<JamCard text="Peppermint" jars={2} />
+				<JamCard text="Cardamon" jars={0} />
+				<JamCard text="Licorice" jars={10} />
+				<JamCard text="Garlic" jars={10} />
+				<JamCard text="Potato" jars={8} />
 
 			</div>
 
